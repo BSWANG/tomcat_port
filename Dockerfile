@@ -1,4 +1,5 @@
 FROM tomcat:7
+MAINTAINER wbs9399@sina.com
 ADD ./bootstrap.sh /usr/local/tomcat/bin/ 
 RUN chmod +x /usr/local/tomcat/bin/bootstrap.sh
 
